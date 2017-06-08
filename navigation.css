@@ -1,0 +1,26 @@
+nav li
+{
+	list-style: none; 
+	/*border: 1px solid black;*/
+	display: inline-block;
+	float: left;
+	font-size: 5em;
+	padding: 30px;
+}
+
+nav a
+{
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	border-radius: 10px;
+	color: white;
+	background-color: black;  
+}
+
+nav a:focus
+{
+	padding: 35px;
+}
